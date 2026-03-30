@@ -224,38 +224,27 @@ Click the help icon above to learn more.
 							<div class="elementor-shortcode">
 <div class="wpcf7 no-js" id="wpcf7-f3056-p73-o1" lang="en-US" dir="ltr" data-wpcf7-id="3056">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form id="contactForm" action="https://formspree.io/f/mykbwjrn" method="POST" class="custom-contact-form">
-
-    <div class="input-group">
-        <input type="text" name="name" placeholder="Your Name *" required>
-    </div>
-
-    <div class="input-group">
-        <input type="tel" name="mobile" placeholder="Mobile Number *" required>
-    </div>
-
-    <div class="input-group">
-        <input type="email" name="email" placeholder="Email *" required>
-    </div>
-
-    <div class="input-group">
-        <input type="text" name="subject" placeholder="Subject">
-    </div>
-
-    <div class="input-group">
-        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
-    </div>
-
-    <!-- Email subject -->
-    <input type="hidden" name="_subject" value="New Contact Form Submission">
-
-    <!-- Optional redirect (remove if not needed) -->
-    <!-- <input type="hidden" name="_next" value="thankyou.html"> -->
-
-    <button type="submit" class="submit-btn">Send Message</button>
-
-    <p id="form-status" style="margin-top:10px;"></p>
-
+<form action="https://formspree.io/f/mykbwjrn"
+  method="POST" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="3056"><input type="hidden" name="_wpcf7_version" value="6.1.5"><input type="hidden" name="_wpcf7_locale" value="en_US"><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3056-p73-o1"><input type="hidden" name="_wpcf7_container_post" value="73"><input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</fieldset>
+<p><label> Your name<br>
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" value="" type="text" name="your-name"></span> </label>
+</p>
+<p><label> Your email<br>
+<span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" autocomplete="email" aria-required="true" aria-invalid="false" value="" type="email" name="your-email"></span> </label>
+</p>
+<p><label> Your Mobile<br>
+<span class="wpcf7-form-control-wrap" data-name="tel-873"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" value="" type="tel" name="tel-873"></span> </label>
+</p>
+<p><label> Subject<br>
+<span class="wpcf7-form-control-wrap" data-name="your-subject"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-subject"></span> </label>
+</p>
+<p><label> Your message (optional)<br>
+<span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
+</p>
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit">
+</p><p style="display: none !important;" class="akismet-fields-container" data-prefix="_wpcf7_ak_"><label>Δ<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="166"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><div class="wpcf7-response-output" aria-hidden="true"></div>
 </form>
 </div>
 </div>
@@ -545,36 +534,6 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 /*! This file is auto-generated */
 const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
 //# sourceURL=//wp-includes/js/wp-emoji-loader.min.js
-</script>
-<script>
-const form = document.getElementById("contactForm");
-const status = document.getElementById("form-status");
-
-form.addEventListener("submit", async function(e) {
-    e.preventDefault();
-
-    let formData = new FormData(form);
-
-    try {
-        let response = await fetch(form.action, {
-            method: form.method,
-            body: formData,
-            headers: { 'Accept': 'application/json' }
-        });
-
-        if (response.ok) {
-            status.style.color = "green";
-            status.innerHTML = "✅ Message sent successfully!";
-            form.reset();
-        } else {
-            status.style.color = "red";
-            status.innerHTML = "❌ Failed to send message!";
-        }
-    } catch (error) {
-        status.style.color = "red";
-        status.innerHTML = "⚠️ Network error!";
-    }
-});
 </script>
 	</body>
 </html>
