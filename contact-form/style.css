@@ -1,0 +1,32 @@
+.custom-contact-form .input-group {
+    margin-bottom: 15px;
+}
+
+.custom-contact-form input,
+.custom-contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.custom-contact-form input:focus,
+.custom-contact-form textarea:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #5a67d8;
+}
